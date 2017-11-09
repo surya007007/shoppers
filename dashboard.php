@@ -27,10 +27,9 @@
 				<div class="span8">
 					<div class="account pull-right">
 						<ul class="user-menu">				
-							
+							<li><a href="#">My Account</a></li>
 							<li><a href="cart.php">Your Cart</a></li>
-							<li><a href="checkout.php">Checkout</a></li>					
-							<li><a href="register.php">Login</a></li>		
+							<li><a href="checkout.php">Logout</a></li>					
 						</ul>
 					</div>
 				</div>
@@ -55,7 +54,7 @@
 									<li><a href="./comin_soon.php">T-Shirt</a></li>
 									<li><a href="./comin_soon.php">Tops</a></li>
 								</ul>		
-							<li><a href="./products.php">Sport</a>
+							<li><a href="./comin_soon.php">Sport</a>
 								<ul>									
 									<li><a href="./comin_soon.php">Cricket</a></li>
 									<li><a href="./comin_soon.php">Football</a></li>
@@ -463,5 +462,5 @@
 			});
 		</script>
     </body>
-//</html>
+</html>
 ?>

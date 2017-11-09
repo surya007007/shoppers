@@ -1,6 +1,6 @@
 <?php include('dbcon.php'); ?>
 <!DOCTYPE html>
-<html lang="en">
+<php lang="en">
 	<head>
 		<meta charset="utf-8">
 		<title>Merchandise Store</title>
@@ -28,9 +28,9 @@
 					<div class="account pull-right">
 						<ul class="user-menu">				
 							<li><a href="#">My Account</a></li>
-							<li><a href="cart.html">Your Cart</a></li>
-							<li><a href="checkout.html">Checkout</a></li>					
-							<li><a href="register.html">Login</a></li>			
+							<li><a href="cart.php">Your Cart</a></li>
+							<li><a href="checkout.php">Checkout</a></li>					
+							<li><a href="register.php">Login</a></li>			
 						</ul>
 					</div>
 				</div>
@@ -39,33 +39,33 @@
 		<div id="wrapper" class="container">
 			<section class="navbar main-menu">
 				<div class="navbar-inner main-menu">				
-					<a href="index.html" class="logo pull-left"><img src="themes/images/logo.png" class="site_logo" alt=""></a>
+					<a href="index.php" class="logo pull-left"><img src="themes/images/logo.png" class="site_logo" alt=""></a>
 					<nav id="menu" class="pull-right">
 						<ul>
-							<li><a href="./products.html">Woman</a>					
+							<li><a href="./products.php">Woman</a>					
 								<ul>
-									<li><a href="./products.html">Suits and Salwars</a></li>									
-									<li><a href="./products.html">Tops</a></li>
-									<li><a href="./products.html">Jeans</a></li>									
+									<li><a href="./products.php">Suits and Salwars</a></li>									
+									<li><a href="./products.php">Tops</a></li>
+									<li><a href="./products.php">Jeans</a></li>									
 								</ul>
 							</li>															
-							<li><a href="./products.html">Man</a></li>
+							<li><a href="./comin_soon.php">Man</a></li>
 
 								<ul>
-									<li><a href="./products.html">Shirts</a></li>									
-									<li><a href="./products.html">T-Shirts</a></li>
-									<li><a href="./products.html">Jeans</a></li>									
+									<li><a href="./comin_soon.php">Shirts</a></li>									
+									<li><a href="./comin_soon.php">T-Shirts</a></li>
+									<li><a href="./comin_soon.php">Jeans</a></li>									
 								</ul>			
-							<li><a href="./products.html">Sport</a>
+							<li><a href="./comin_soon.php">Sport</a>
 								<ul>									
-									<li><a href="./products.html">Cricket</a></li>
-									<li><a href="./products.html">Football</a></li>
-									<li><a href="./products.html">Tennis</a></li>
+									<li><a href="./comin_soon.php">Cricket</a></li>
+									<li><a href="./comin_soon.php">Football</a></li>
+									<li><a href="./comin_soon.php">Tennis</a></li>
 								</ul>
 							</li>							
-							<li><a href="./products.html">Hangbag</a></li>
-							<li><a href="./products.html">Best Seller</a></li>
-							<li><a href="./products.html">Top Seller</a></li>
+							<li><a href="./comin_soon.php">Hangbag</a></li>
+							<li><a href="./products.php">Best Seller</a></li>
+							<li><a href="./products.php">Top Seller</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -262,11 +262,11 @@
 					<div class="span3">
 						<h4>Navigation</h4>
 						<ul class="nav">
-							<li><a href="./index.html">Homepage</a></li>  
-							<li><a href="./about.html">About Us</a></li>
-							<li><a href="./contact.html">Contact Us</a></li>
-							<li><a href="./cart.html">Your Cart</a></li>
-							<li><a href="./register.html">Login</a></li>							
+							<li><a href="./index.php">Homepage</a></li>  
+							<li><a href="./contact.php">About Us</a></li>
+							<li><a href="./contact.php">Contact Us</a></li>
+							<li><a href="./cart.php">Your Cart</a></li>
+							<li><a href="./register.php">Login</a></li>							
 						</ul>					
 					</div>
 					<div class="span4">

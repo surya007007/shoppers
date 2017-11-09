@@ -3,9 +3,14 @@
 		include('dbcon.php');
 		if (isset($_POST['submit'])){
 		$email_id=$_POST['email_address'];
+
 		$password=$_POST['password'];
 		$cpassword=$_POST['cpassword'];
 
+if (!filter_var($email_id, FILTER_VALIDATE_EMAIL)) {
+		  $emailErr = "Invalid email format  <br>"; 
+		  echo $emailErr;
+	}
 if($password == $cpassword){ ?>
 <?php  
 mysql_query("insert into users(email_id, password, cpassword) values ('$email_id' , '$password' , '$cpassword') ")or die(mysql_error());
@@ -15,8 +20,9 @@ mysql_query("insert into users(email_id, password, cpassword) values ('$email_id
 </script>
 <?php
 }else{
-echo " ";
-}}
+$exist = " Password Is Not Same";
+}
+echo '<h4 align="center">' .$exist. '</h4>';}
 else
 {
 	if (isset($_POST['sign_submit']))
@@ -71,8 +77,7 @@ else
 				<div class="span8">
 					<div class="account pull-right">
 						<ul class="user-menu">				
-							<li><a href="#">My Account</a></li>
-							<li><a href="cart.php">Your Cart</a></li>
+							
 							<li><a href="checkout.php">Checkout</a></li>					
 							<li><a href="register.php">Login</a></li>		
 						</ul>
@@ -86,24 +91,24 @@ else
 					<a href="index.php" class="logo pull-left"><img src="themes/images//logo.png" class="site_logo" alt=""></a>
 					<nav id="menu" class="pull-right">
 						<ul>
-							<li><a href="./products.php">Woman</a>					
+							<li><a href="./comin_soon.php">Woman</a>					
 								<ul>
 									<li><a href="./products.php">Suit and Salwar</a></li>									
 									<li><a href="./products.php"></a>Tops</li>
 									<li><a href="./products.php">Jeans</a></li>									
 								</ul>
 							</li>															
-							<li><a href="./products.php">Man</a></li>
+							<li><a href="./comin_soon.php">Man</a></li>
 								<ul>
-									<li><a href="./products.php">Shirt</a></li>									
-									<li><a href="./products.php"></a>T-Shirt</li>
-									<li><a href="./products.php">Jeans</a></li>									
+									<li><a href="./comin_soon.php">Shirt</a></li>									
+									<li><a href="./comin_soon.php"></a>T-Shirt</li>
+									<li><a href="./comin_soon.php">Jeans</a></li>									
 								</ul>			
-							<li><a href="./products.php">Sport</a>
+							<li><a href="./comin_soon.php">Sport</a>
 								<ul>									
-									<li><a href="./products.php">Cricket</a></li>
-									<li><a href="./products.php">Football</a></li>
-									<li><a href="./products.php">Tennis</a></li>
+									<li><a href="./comin_soon.php">Cricket</a></li>
+									<li><a href="./comin_soon.php">Football</a></li>
+									<li><a href="./comin_soon.php">Tennis</a></li>
 								</ul>
 							</li>							
 							<li><a href="./products.php">Hangbag</a></li>
@@ -181,7 +186,7 @@ else
 						<h4>Navigation</h4>
 						<ul class="nav">
 							<li><a href="./index.php">Homepage</a></li>  
-							<li><a href="./about.php">About Us</a></li>
+							<li><a href="./contact.php">About Us</a></li>
 							<li><a href="./contact.php">Contact Us</a></li>
 							<li><a href="./cart.php">Your Cart</a></li>
 							<li><a href="./register.php">Login</a></li>							

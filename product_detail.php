@@ -50,21 +50,21 @@
 									<li><a href="./products.php">Jeans</a></li>									
 								</ul>
 							</li>															
-							<li><a href="./products.php">Man</a></li>			
+							<li><a href="./comin_soon.php">Man</a></li>			
 											
 								<ul>
-									<li><a href="./products.php">Shirts</a></li>									
-									<li><a href="./products.php">T- Shirts</a></li>
-									<li><a href="./products.php">Jeans</a></li>									
+									<li><a href="./comin_soon.php">Shirts</a></li>									
+									<li><a href="./comin_soon.php">T- Shirts</a></li>
+									<li><a href="./comin_soon.php">Jeans</a></li>									
 								</ul>
-							<li><a href="./products.php">Sport</a>
+							<li><a href="./comin_soon.php">Sport</a>
 								<ul>									
-									<li><a href="./products.php">Cricket</a></li>
-									<li><a href="./products.php">Football</a></li>
-									<li><a href="./products.php">Tennis</a></li>
+									<li><a href="./comin_soon.php">Cricket</a></li>
+									<li><a href="./comin_soon.php">Football</a></li>
+									<li><a href="./comin_soon.php">Tennis</a></li>
 								</ul>
 							</li>							
-							<li><a href="./products.php">Hangbag</a></li>
+							<li><a href="./comin_soon.php">Hangbag</a></li>
 							<li><a href="./products.php">Best Seller</a></li>
 							<li><a href="./products.php">Top Seller</a></li>
 						</ul>
@@ -224,20 +224,20 @@
 						<div class="block">	
 							<ul class="nav nav-list">
 								<li class="nav-header">SUB CATEGORIES</li>
-								<li><a href="products.php">Jackets</a></li>
-								<li class="active"><a href="products.php">Cardigans</a></li>
-								<li><a href="products.php">Logon Jackets</a></li>
-								<li><a href="products.php">Full Sleeves</a></li>
-								<li><a href="products.php">Hoody</a></li>
-								<li><a href="products.php">Shoes</a></li>
+								<li><a href="comin_soon.php">Jackets</a></li>
+								<li class="active"><a href="comin_soon.php">Cardigans</a></li>
+								<li><a href="comin_soon.php">Logon Jackets</a></li>
+								<li><a href="comin_soon.php">Full Sleeves</a></li>
+								<li><a href="comin_soon.php">Hoody</a></li>
+								<li><a href="comin_soon.php">Shoes</a></li>
 							</ul>
 							<br/>
 							<ul class="nav nav-list below">
 								<li class="nav-header">MANUFACTURES</li>
-								<li><a href="products.php">Adidas</a></li>
-								<li><a href="products.php">Nike</a></li>
-								<li><a href="products.php">Dunlop</a></li>
-								<li><a href="products.php">Yamaha</a></li>
+								<li><a href="comin_soon.php">Adidas</a></li>
+								<li><a href="comin_soon.php">Nike</a></li>
+								<li><a href="comin_soon.php">Dunlop</a></li>
+								<li><a href="comin_soon.php">Yamaha</a></li>
 							</ul>
 						</div>
 						<div class="block">
@@ -309,7 +309,7 @@
 						<h4>Navigation</h4>
 						<ul class="nav">
 							<li><a href="./index.php">Homepage</a></li>  
-							<li><a href="./about.php">About Us</a></li>
+							<li><a href="./contact.php">About Us</a></li>
 							<li><a href="./contact.php">Contact Us</a></li>
 							<li><a href="./cart.php">Your Cart</a></li>
 							<li><a href="./register.php">Login</a></li>							
