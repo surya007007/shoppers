@@ -9,8 +9,14 @@
 
 if (!filter_var($email_id, FILTER_VALIDATE_EMAIL)) {
 		  $emailErr = "Invalid email format  <br>"; 
-		  echo $emailErr;
+		  echo '<h4 align="center">' .$emailErr. '</h4>';
 	}
+	else
+	{
+		$email_id=$_POST['email_address'];
+
+		$password=$_POST['password'];
+		$cpassword=$_POST['cpassword'];
 if($password == $cpassword){ ?>
 <?php  
 mysql_query("insert into users(email_id, password, cpassword) values ('$email_id' , '$password' , '$cpassword') ")or die(mysql_error());
@@ -22,12 +28,18 @@ mysql_query("insert into users(email_id, password, cpassword) values ('$email_id
 }else{
 $exist = " Password Is Not Same";
 }
-echo '<h4 align="center">' .$exist. '</h4>';}
+echo '<h4 align="center">' .$exist. '</h4>';}}
 else
 {
 	if (isset($_POST['sign_submit']))
 	{
 		$email_id=$_POST['email_address'];
+		 if (!filter_var($email_id, FILTER_VALIDATE_EMAIL)) {
+		  $emailErr = "Invalid email format  <br>"; 
+		  echo '<h4 align="center">' .$emailErr. '</h4>';
+	}
+	else
+	{
 		$password=$_POST['password'];
 		$query=mysql_query("select * from users where email_id='$email_id' and password='$password'")or die(mysql_error());
 		$count=mysql_num_rows($query);
@@ -47,6 +59,7 @@ else
 		}
 		echo '<h4 align="center">' .$exist. '</h4>';
 	}
+}
 }
 
 ?>
